@@ -1092,6 +1092,13 @@ small{color: #555;}
 }
 
 @media screen and (max-width:768px){
+    .home{
+        min-height: 90vh;
+        align-items: center;
+        justify-content: center;
+        clip-path: polygon(0 0,100% 0,100% 100%,80% 98%,0 100%);
+    }
+
     .caurosel{
         width: 94%;
         height: 250px;
@@ -1229,6 +1236,23 @@ small{color: #555;}
      
      #bar{
         font-size: 25px; 
+    }
+
+    .sticky .nav-mid{
+        float: left;
+        margin-left: -90px;
+    }
+
+    .home{
+        min-height: 80vh;
+        align-items: center;
+        justify-content: center;
+        clip-path: polygon(0 0,100% 0,100% 100%,80% 99%,0 100%);
+    }
+
+    .banner{
+        height: 100%;
+        width: 100%;
     }
 
     .trend-heading{
