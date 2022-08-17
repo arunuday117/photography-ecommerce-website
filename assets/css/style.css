@@ -38,7 +38,7 @@ a{
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
   }
   
   /* Track */
@@ -204,7 +204,7 @@ a{
 .nav-mid{
     padding-top: 17px;
     /* transform: translateX(-600%); */
-    margin-right: 590px;
+    margin-right: 620px;
 }
 
 .nav-mid a{
@@ -1005,13 +1005,21 @@ small{color: #555;}
 }
 
 @media screen and (max-width: 1446px){
+    .nav-mid{
+        margin-right: 570px;
+    }
+
     .cart{
         transform: translateX(640px);
     }
 }
 @media screen and (max-width: 1376px){
+    .nav-main{
+        padding: 20px 70px;
+    }
+
     .nav-mid{
-        margin-right: 490px;
+        margin-right: 560px;
     }
 
     .nav-mid a{
@@ -1032,7 +1040,7 @@ small{color: #555;}
         margin-top: 120px;
     }
     .nav-main{
-        padding: 20px 80px;
+        padding: 20px 50px;
     }
 
     .nav-head li a{
@@ -1051,11 +1059,15 @@ small{color: #555;}
     }
 
     .cart{
-        margin-right: 190px;
+        margin-right: 200px;
     }
     
     .sticky{
         padding: 10px 140px;
+    }
+
+    .sticky .cart{
+        margin-right: 190px;
     }
 
     .svg1{
@@ -1071,9 +1083,25 @@ small{color: #555;}
     }
 }
 
+@media screen and (max-width:1196px){
+    .sticky .cart{
+        transform: translateX(580px);
+    }
+}
+
 @media screen and (max-width:1137px){
+    .nav-main{
+        padding: 20px 30px;
+    }
+    .nav-mid{
+        margin-right: 500px !important;
+    }
     .cart{
         transform: translateX(600px);
+    }
+
+    .sticky .cart{
+        transform: translateX(620px);
     }
 }
 
@@ -1081,11 +1109,19 @@ small{color: #555;}
     .cart{
         transform: translateX(530px);
     }
+
+    .sticky .cart{
+        transform: translateX(560px);
+    }
 }
 
 @media screen and (max-width:1025px){
     .cart{
         transform: translateX(480px);
+    }
+
+    .sticky .cart{
+        transform: translateX(520px);
     }
 }
 
@@ -1125,7 +1161,7 @@ small{color: #555;}
     }
     .nav-mid {
         position: absolute;
-        top: 10px;
+        top: 2px;
         margin-left: 10px;
     }
 
@@ -1149,6 +1185,10 @@ small{color: #555;}
         right: 400px;
         top: 2px;
         font-size: 13px;
+    }
+
+    .sticky .cart{
+        transform: translateX(460px);
     }
     
     .login{
@@ -1190,7 +1230,7 @@ small{color: #555;}
     }
     
     .trend-heading{
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         text-transform: uppercase;
     }
     
@@ -1380,6 +1420,10 @@ small{color: #555;}
 }
 
 @media screen and (max-width:579px){
+    .trend-heading{
+        margin-top: 3px;
+    }
+
     .login-section{
         min-width: 100%;
     }
@@ -1456,7 +1500,7 @@ small{color: #555;}
     }
 
     .nav-mid {
-        margin-left: -53px;
+        margin-left: 23px;
     }
 
     .nav-mid a{
@@ -1489,7 +1533,11 @@ small{color: #555;}
 
     .sticky .nav-mid{
         float: left;
-        margin-left: -90px;
+        margin-left: -10px;
+    }
+
+    .sticky .cart{
+        margin-right: 150px;
     }
 
     .home{
