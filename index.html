@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arun Uday">
     <title>XLOID</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -27,9 +28,9 @@
             <div class="nav-item">
                 <div class="nav-head">
                     <ul>
-                        <li class="nav-items"><a href="#">Explore</a></li>
-                        <li class="nav-items"><a href="#">About</a></li>
-                        <li class="nav-items"><a href="#">Community</a></li>
+                        <li class="nav-items"><a href="explore.html">Explore</a></li>
+                        <li class="nav-items"><a href="#about">About</a></li>
+                        <li class="nav-items"><a href="community.html">Community</a></li>
                     </ul>
                 </div>
                 <div class="nav-tail">
@@ -60,11 +61,11 @@
                     vitae
                     erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet
                 </p>
-                <button class="join">Join Now</button>
+                <a href="login.html" class="join">Join Now</a>
             </div>
             <div class="banner"></div>
         </section>
-        <section class="trending view reveal">
+        <section class="trending view reveal" id="explorer">
             <div class="trend-heading">
                 <!--?xml version="1.0" standalone="no"?--> <svg id="sw-js-blob-svg1" class="svg1" viewBox="0 0 100 100"
                     xmlns="http://www.w3.org/2000/svg">
@@ -339,7 +340,7 @@
                 </div>
             </div>
         </section>
-        <footer class="main-footer reveal">
+        <footer class="main-footer reveal" id="about">
             <div class="columns">
                 <div class="footer-col">
                     <div class="footer-logo">
@@ -384,6 +385,7 @@
         </footer>
     </div>
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/sticky.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
